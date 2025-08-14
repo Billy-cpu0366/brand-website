@@ -2,5 +2,6 @@
   "buildCommand": "pnpm install --no-frozen-lockfile && pnpm run build",
   "outputDirectory": "out",
   "nodeVersion": "22",
-  "packageManager": "pnpm"
+  "packageManager": "pnpm",
+  "deployCommand": ""
 }

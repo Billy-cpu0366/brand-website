@@ -11,10 +11,9 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "deploy": "npm run build && wrangler pages deploy out",
-    "preview": "npm run build && wrangler pages dev out",
-    "build:ci": "pnpm install --no-frozen-lockfile && pnpm build",
-    "deploy:cloudflare": "pnpm build:ci"
+    "deploy": "pnpm run build && wrangler pages deploy out",
+    "preview": "pnpm run build && wrangler pages dev out",
+    "build:ci": "pnpm install --no-frozen-lockfile && pnpm build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
