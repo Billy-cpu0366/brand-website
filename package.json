@@ -11,7 +11,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "deploy": "pnpm run build && wrangler pages deploy out",
+    "deploy:local": "pnpm run build && wrangler pages deploy out",
     "preview": "pnpm run build && wrangler pages dev out",
     "build:ci": "pnpm install --no-frozen-lockfile && pnpm build"
   },
