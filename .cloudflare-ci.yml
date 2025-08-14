@@ -1,0 +1,14 @@
+# Cloudflare Pages CI 配置
+# 用于解决 pnpm-lock.yaml 同步问题
+
+build:
+  command: |
+    echo "Installing dependencies..."
+    pnpm install --no-frozen-lockfile
+    echo "Building project..."
+    pnpm run build
+  publish: "out"
+
+environment:
+  NODE_VERSION: "22"
+  PNPM_VERSION: "10"

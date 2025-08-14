@@ -1,0 +1,6 @@
+feat: add deployment configuration files and update package.json
+
+- Add .node-version for Node.js version consistency
+- Add _redirects for Netlify deployment
+- Add netlify.toml for Netlify configuration
+- Update package.json with latest dependencies
